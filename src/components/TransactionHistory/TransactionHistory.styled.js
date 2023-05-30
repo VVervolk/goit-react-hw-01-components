@@ -16,7 +16,7 @@ export const Head = styled.thead`
 export const Row = styled.tr`
   text-align: center;
 
-  &:nth-child(even) {
+  &:nth-of-type(even) {
     background-color: #d9e8fb;
   }
 `;
